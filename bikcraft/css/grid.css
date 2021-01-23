@@ -1,0 +1,207 @@
+/* line 14, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 24, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-1 {
+  width: 40px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-2 {
+  width: 100px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-3 {
+  width: 160px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-4 {
+  width: 220px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-5 {
+  width: 280px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-6 {
+  width: 340px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-7 {
+  width: 400px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-8 {
+  width: 460px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-9 {
+  width: 520px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-10 {
+  width: 580px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-11 {
+  width: 640px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-12 {
+  width: 700px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-13 {
+  width: 760px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-14 {
+  width: 820px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-15 {
+  width: 880px;
+}
+
+/* line 32, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-16 {
+  width: 940px;
+}
+
+/* line 38, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.grid-1-3 {
+  width: 300px;
+}
+
+/* line 43, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+/* line 50, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.container:after, .container:before {
+  content: " ";
+  display: table;
+}
+
+/* line 55, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+.container:after {
+  clear: both;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-1 {
+    width: 28px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-2 {
+    width: 76px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-3 {
+    width: 124px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-4 {
+    width: 172px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-5 {
+    width: 220px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-6 {
+    width: 268px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-7 {
+    width: 316px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-8 {
+    width: 364px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-9 {
+    width: 412px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-10 {
+    width: 460px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-11 {
+    width: 508px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-12 {
+    width: 556px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-13 {
+    width: 604px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-14 {
+    width: 652px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-15 {
+    width: 700px;
+  }
+  /* line 65, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-16 {
+    width: 748px;
+  }
+  /* line 70, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-1-3 {
+    width: 236px;
+  }
+  /* line 74, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .container {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 84, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+    width: 300px;
+    margin: 0 0 20px 0;
+    float: none;
+  }
+  /* line 100, ../../../Desktop/Origamid/CSS-SASS/bikcraft/scss/grid.scss */
+  .container {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=grid.css.map */

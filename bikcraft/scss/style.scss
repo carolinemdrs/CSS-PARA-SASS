@@ -1,0 +1,16 @@
+@import 'variaveis-e-mixis';
+
+//gerais
+@import 'normalize';
+@import 'reset';
+@import 'grid';
+@import 'style-raw';
+
+//páginas
+@import 'produtos';
+@import 'portfolio';
+@import 'contato';
+
+//responsivo
+@import 'responsivo';
+
